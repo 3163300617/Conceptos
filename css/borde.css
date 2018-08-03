@@ -2,3 +2,50 @@ h1{
 	text-align: center;
 	font-size: 72px;
 }
+p{ /* tamaño de fuente em 1em = 16 px = 34px / 16px =2.125 em*/
+	font-size: 2.125em;
+	/* esta etiqueta sirve para escojer la familia de la fuente y si no coge la primera la segunda opcion sea serif  */
+	font-family: Georgia,serif;
+	/* peso de la fuente: normal,bold,bolder,lighter,100 a 900, inherit*/
+	font-weight: 900;
+	/*estilo de la fuente normal, italic, oblique*/
+	font-style: oblique;
+	/*variante de la fuente*/
+	font-variant: small-caps;
+	/*interlineado de texto*/
+	line-height: 200%;
+}
+/* la etiqueta border es para el borde, dentro de esa lo sieguiente es el color, despues el gruesor y por ultimo el estilo del borde */
+.par1{
+	border: red thin solid;
+}
+.par2{
+	border: green medium solid;
+}
+.par3{
+	border: orange thick solid;
+}
+.par4{
+	border: red 20px double;
+}
+.par5{
+	border: orange 30px dotted;
+}
+.par6{
+	border: red 25px dashed;
+}
+.par7{
+	border: black 40px solid;
+}
+.par8{
+	border: black 20px dotted;
+}
+.par9{
+	border: yellow 10px dotted;
+}
+.par10{
+	border: orange 30px dashed;
+}
+em{
+	font-weight: 900;
+}
